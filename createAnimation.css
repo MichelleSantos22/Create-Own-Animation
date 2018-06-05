@@ -6,19 +6,11 @@
     100% {background-color: red; left:0px; top:0px;}
 }
 
-@keyframes second {
-    0%   {background-color: deepskyblue; left:0px; top:0px;}
-    25%  {background-color: yellow; left:100px; top:0px;}
-    50%  {background-color: deepskyblue; left:100px; top:100px;}
-    75% {background-color: yellow; left:0px; top:100px;}
-    100% {background-color: deepskyblue; left:0px; top:0px;}
-}
-
 div {
     border: 1rem solid red;
     border: 1rem solid white;
     box-shadow: 0 0 0 1.5rem limegreen;
-    border-radius: 60% 40%;
+    border-radius: 40% 40%;
     margin: 4rem;
     padding: 1rem;
     width: 100px;
@@ -50,11 +42,7 @@ div {
   background: red;
   top: 0px;
   left: 0px;
-    /*animation-name: second;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-direction: reverse;
-    animation-timing-function: ease;*/
+    /*animation-timing-function: ease;*/
 }
 
 h4 {
