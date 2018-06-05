@@ -25,6 +25,16 @@ div {
     animation-iteration-count: 3;
     animation-fill-mode: forwards;
     animation-timing-function: linear;
+
+    border: 1rem solid red;
+    border-bottom: 1rem solid white;
+    box-shadow: 1.5rem limegreen;
+    border-radius: 45% 90%;
+    margin: 4rem;
+    padding: 1rem;
+    width: 100px;
+    height: 100px;
+    position: relative;
 }
 
 #container {
